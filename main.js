@@ -35,7 +35,7 @@ function showChannel(data) {
         <a href="https://www.youtube.com/channel/${myId}" target="_blank" class="btn btn-danger btn-sm">Go to My Youtube Channel</a>
     </div>
     <div class="col-md-6 mb-4">
-        <ul class="list-group shadow-xl">	
+        <ul class="list-group shadow-lg">	
             <li class="list-group-item bg-danger"><strong class="text-white">YOUTUBE CHANNEL : ${title}</strong></li>
             <li class="list-group-item"><strong>Channel Description</strong>: ${desc}</li>
             <li class="list-group-item"><strong>Videos</strong>: ${numberWithCommas(videos)}</li>
