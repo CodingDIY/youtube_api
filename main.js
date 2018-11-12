@@ -84,6 +84,6 @@ function loadVideo(data) {
 
 		videoContainer.innerHTML = output;
 	} else {
-		videoContainer.innerHTML = youtubeAPIData.sorryNoVideos;
+		videoContainer.innerHTML = 'Sorry, No videos uploaded!';
 	}
 }
